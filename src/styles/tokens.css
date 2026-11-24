@@ -1,0 +1,57 @@
+/* ===================================================================
+   TOKENS DE DISEÑO · F4A Atomic
+   Los valores base del sistema. Todos los componentes los usan mediante
+   variables CSS, así un cambio aquí se refleja en toda la tienda.
+   =================================================================== */
+:root {
+  /* Color: consola oscura (encabezado, pie, panel) + papel claro (contenido) */
+  --ink: #10131a;          /* fondos oscuros y texto principal */
+  --ink-2: #1b2029;        /* superficies sobre fondo oscuro */
+  --paper: #eef1f4;        /* fondo de la tienda */
+  --surface: #ffffff;      /* tarjetas y paneles */
+  --line: #d6dbe2;         /* bordes */
+  --muted: #5a6472;        /* texto secundario (7,0:1 sobre blanco) */
+
+  /* Marca: los colores del logo F4A */
+  --blue: #1e4fd8;         /* acción principal (6,4:1 con texto blanco) */
+  --blue-ink: #173fae;
+  --blue-soft: #e5ecfd;
+  --green: #00c46a;        /* acento: fondo con texto oscuro */
+  --green-ink: #00753a;    /* verde como texto (5,4:1 sobre blanco) */
+  --green-soft: #ddf7ea;
+  --red: #c8261c;
+  --red-soft: #fde7e5;
+  --amber: #9a5b00;
+  --amber-soft: #fff1d6;
+
+  /* Tipografía */
+  --font-display: 'Oxanium', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Manrope', 'Segoe UI', system-ui, sans-serif;
+
+  /* Forma y profundidad */
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --shadow: 0 1px 2px rgba(16, 19, 26, 0.06), 0 4px 14px rgba(16, 19, 26, 0.06);
+  --shadow-lift: 0 10px 28px rgba(16, 19, 26, 0.14);
+  --notch: 11px;           /* muesca de la tarjeta de clave */
+
+  /* Espaciado vertical entre secciones */
+  --section: clamp(2.5rem, 5vw, 4rem);
+
+  /* Bootstrap: se le pasan los tokens para que sus componentes los usen */
+  --bs-body-bg: var(--paper);
+  --bs-body-color: var(--ink);
+  --bs-body-font-family: var(--font-body);
+  --bs-border-color: var(--line);
+  --bs-border-radius: var(--radius-sm);
+  --bs-link-color: var(--blue);
+  --bs-link-color-rgb: 30, 79, 216;
+  --bs-link-hover-color: var(--blue-ink);
+  --bs-primary: var(--blue);
+  --bs-primary-rgb: 30, 79, 216;
+  --bs-danger: var(--red);
+  --bs-danger-rgb: 200, 38, 28;
+  --bs-success: var(--green-ink);
+  --bs-success-rgb: 0, 117, 58;
+}

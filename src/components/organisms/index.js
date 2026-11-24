@@ -1,0 +1,21 @@
+// Organismos: secciones completas de la interfaz, hechas de moléculas y átomos.
+export { AdminSidebar } from './AdminSidebar';
+export { BarChart } from './BarChart';
+export { CartList } from './CartList';
+export { CartSummary } from './CartSummary';
+export { CategoryGrid } from './CategoryGrid';
+export { CustomerForm } from './CustomerForm';
+export { DataTable } from './DataTable';
+export { FaqAccordion } from './FaqAccordion';
+export { Footer } from './Footer';
+export { Header } from './Header';
+export { HeroBanner } from './HeroBanner';
+export { OrderItemsTable } from './OrderItemsTable';
+export { OrderReceipt } from './OrderReceipt';
+export { PaymentGateway } from './PaymentGateway';
+export { PaymentMethodSelector } from './PaymentMethodSelector';
+export { ProductCard } from './ProductCard';
+export { ProductFilters } from './ProductFilters';
+export { ProductForm } from './ProductForm';
+export { ProductGrid } from './ProductGrid';
+export { UserForm } from './UserForm';
